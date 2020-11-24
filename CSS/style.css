@@ -1,0 +1,98 @@
+/*For all pages*/
+/*HEADER*/
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{height: 900px;}
+header {
+	background-image:url("books.jpg");
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 75% 75% / 10%;
+}
+header .banner{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+  text-shadow: 2px 2px 2px rgb(26, 24, 24);
+  text-align:center; 
+  margin:0 auto;">
+ }
+
+h1 {
+  font-family: 'Give You Glory', cursive;
+  font-size: 80px;
+	margin-bottom: 30px;
+}
+
+h3 {
+  font-family: 'Mansalva', sans-serif;
+  margin-bottom: 30px;  
+}
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+}
+button:hover{
+	cursor: pointer;
+}
+
+/*FOOTER*/
+footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: rgb(90, 8, 8);
+  height: 100px;
+  padding: 20px;
+}
+footer a {
+  color: white;
+}
+.mail-icon {
+  display: inline-flex;
+  width: 70px;
+  height: 70px;
+  color: black;
+  background-color: rgb(230, 219, 236);
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.mail-icon:hover {
+  color: rgb(241, 115, 42);
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+@media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
